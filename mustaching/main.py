@@ -497,6 +497,7 @@ def plot(summary, currency=None, width=None, height=None):
                     "color": color,
                     "series_type": "column",
                     "stack": column,
+                    "borderColor": "white",
                 }
                 chart.add_data_set(g[column].values.tolist(), **series_opts)
 
@@ -511,6 +512,7 @@ def plot(summary, currency=None, width=None, height=None):
             "name": "Balance",
             "color": get_colors("balance", 1)[0],
             "series_type": "line",
+            "borderColor": "white",
         }
         chart.add_data_set(g["balance"].values.tolist(), **series_opts)
 

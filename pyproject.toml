@@ -10,6 +10,7 @@ python = "^3.8"
 pandas = "^1"
 colorlover = "^0.3.0"
 python-highcharts = "^0.4.2"
+plotly = "^4.14.1"
 
 [tool.poetry.dev-dependencies]
 jupyter = "^1.0"
